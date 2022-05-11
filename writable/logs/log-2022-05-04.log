@@ -1,0 +1,42 @@
+CRITICAL - 2022-05-04 09:14:11 --> syntax error, unexpected token "}"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Xampp\\htdocs...')
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 09:47:48 --> Object of class stdClass could not be converted to string
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->list()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-04 11:28:05 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 12:03:27 --> Unmatched '}'
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Xampp\\htdocs...')
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-04 15:47:17 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

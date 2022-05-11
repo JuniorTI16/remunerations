@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-30 08:34:02 --> Undefined variable $script
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Views\layout\footer.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 65)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(210): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\Common.php(1089): CodeIgniter\View\View->render('layout/footer', Array, true)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(10): view('layout/footer')
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->index()
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

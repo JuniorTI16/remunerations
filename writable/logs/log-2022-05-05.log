@@ -1,0 +1,61 @@
+CRITICAL - 2022-05-05 08:46:37 --> require_once(modals/addUser.php): Failed to open stream: No such file or directory
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Views\users.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(mo...', 'E:\\Xampp\\htdocs...', 42)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\app\Views\users.php(42): require_once()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(210): include('E:\\Xampp\\htdocs...')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Common.php(1089): CodeIgniter\View\View->render('users', Array, true)
+#5 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\UsersC.php(12): view('users', Array)
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\UsersC->index()
+#7 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersC))
+#8 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-05 18:25:19 --> There is no data to update.
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\UsersC.php(124): CodeIgniter\Model->update(Array)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\UsersC->update()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersC))
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-05 18:28:06 --> There is no data to update.
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\UsersC.php(124): CodeIgniter\Model->update(Array)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\UsersC->update()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersC))
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-05 18:37:26 --> Undefined property: stdClass::$file
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\UsersC.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\Xampp\\htdocs...', 128)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\UsersC->update()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 19:52:17 --> Undefined variable $script
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Views\layout\footer.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 48)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(210): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\Common.php(1089): CodeIgniter\View\View->render('layout/footer', Array, true)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\Home.php(11): view('layout/footer')
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 19:52:17 --> Undefined variable $script
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Views\layout\footer.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 48)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(210): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\Common.php(1089): CodeIgniter\View\View->render('layout/footer', Array, true)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\Home.php(11): view('layout/footer')
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

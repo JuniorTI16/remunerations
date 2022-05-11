@@ -1,0 +1,186 @@
+CRITICAL - 2022-05-02 09:41:49 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:41:52 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:44:18 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:44:56 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:44:57 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:44:57 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:42 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:43 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:45:44 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:12 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:12 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:12 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:13 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:13 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:13 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:46:13 --> Class "App\Helpers\Helper" not found
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:49:27 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:49:28 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:49:28 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:49:29 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:52 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:53 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:53 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:53 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:53 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-02 09:52:53 --> Call to undefined function App\Controllers\sanitizar()
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

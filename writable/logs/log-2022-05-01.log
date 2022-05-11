@@ -1,0 +1,239 @@
+CRITICAL - 2022-05-01 21:15:41 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:23:23 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:23:45 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:23:47 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:23:47 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:23:53 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:24:57 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:25:12 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 15)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:25:13 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 15)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:25:16 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 21:25:19 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 15)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:10 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:11 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:12 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:12 --> Undefined array key "nExp"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:20 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:21 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:21 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:28 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:26:51 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:27:12 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:28:12 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:28:45 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:28:56 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:29:32 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:31:10 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:31:12 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:31:13 --> Undefined array key "formData"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 21:37:56 --> Undefined array key "a"
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 34)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:17:09 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 42)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 22:19:00 --> Array to string conversion
+#0 E:\Xampp\htdocs\sistema_remuneraciones\app\Controllers\DocumentsC.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'E:\\Xampp\\htdocs...', 45)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(832): App\Controllers\DocumentsC->add()
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#3 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-01 23:20:37 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-01 23:32:03 --> Undefined variable $totalTime
+#0 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Xampp\\htdocs...', 40)
+#1 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(501): include('E:\\Xampp\\htdocs...')
+#2 E:\Xampp\htdocs\sistema_remuneraciones\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 E:\Xampp\htdocs\sistema_remuneraciones\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 E:\Xampp\htdocs\sistema_remuneraciones\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 E:\Xampp\htdocs\sistema_remuneraciones\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 E:\Xampp\htdocs\sistema_remuneraciones\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

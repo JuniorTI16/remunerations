@@ -1,0 +1,25 @@
+CREATE DATABASE remuneration;
+
+USE remuneration;
+
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(60),
+    name VARCHAR(100),
+    password VARCHAR(60),
+    photo VARCHAR(60)
+)Engine=INNODB;
+
+CREATE TABLE documents (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    docDate DATE,
+    nExp VARCHAR(100),
+    subject VARCHAR(255),
+    reason VARCHAR(255),
+    observation VARCHAR(150),
+    file VARCHAR(60),
+    idUser INT,
+    FOREIGN KEY (idUser) REFERENCES users(id)
+)Engine=INNODB;
+
+https://blog.trescomatres.com/2020/12/eliminar-public-e-index-php-en-codeigniter-4/
