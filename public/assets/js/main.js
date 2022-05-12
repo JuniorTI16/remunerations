@@ -118,7 +118,8 @@ let menu, animate;
 })();
 
 
-const urlAppp = "http://localhost/sistema_remuneraciones/";
+// const urlAppp = "http://localhost/sistema_remuneraciones/";
+const urlAppp = "https://remunerationsapp.herokuapp.com/";
 function logout() {
   $.ajax({
     url: urlAppp + "logout",
