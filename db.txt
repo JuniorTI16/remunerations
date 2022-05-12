@@ -23,3 +23,7 @@ CREATE TABLE documents (
 )Engine=INNODB;
 
 https://blog.trescomatres.com/2020/12/eliminar-public-e-index-php-en-codeigniter-4/
+
+heroku config | findstr CLEARDB_DATABASE_URL
+
+CLEARDB_DATABASE_URL: mysql://b9475bc7d87319:d0256fe9@us-cdbr-east-05.cleardb.net/heroku_0d3cc06d5d6ea4e?reconnect=true

@@ -20,7 +20,16 @@ $('#formAuthentication').submit(function (event) {
         data: {
             username,
             password
-        }
+        },
+        error: function (r) {
+            console.log(r)
+            Swal.fire({
+                icon: "error",
+                title: "Error...",
+                text: "Ocurrió un error en el servidor.",
+                timer: 2700,
+            });
+        },
     }).done(function (response) {
         let resp = JSON.parse(response);
         if (resp == 0) {
