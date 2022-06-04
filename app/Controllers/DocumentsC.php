@@ -320,7 +320,7 @@ class DocumentsC extends BaseController{
 
         $sheet->getStyle('D8:P31')->applyFromArray($styleArray);
         $writer = new Xlsx($spreadsheet);
-        $writer->save("../summaries/Resumen$month$year.xlsx");
+        $writer->save("Resumen$month$year.xlsx");
         
         echo base_url() . 'app/summaries/' . "Resumen$month$year.xlsx";
     }
