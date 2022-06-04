@@ -59,6 +59,10 @@ $routes->get('/documents', 'DocumentsC::index');
 $routes->post('/documents/addDoc', 'DocumentsC::add');
 $routes->post('/documents/listDoc', 'DocumentsC::list');
 $routes->post('/documents/updateDoc', 'DocumentsC::update');
+$routes->get('/resume', 'DocumentsC::resume');
+$routes->post('/create_resume', 'DocumentsC::create_resume');
+
+$routes->post('/make', 'DocumentsC::make');
 
 $routes->get('/users', 'UsersC::index');
 $routes->post('/users/addUser', 'UsersC::add');

@@ -44,7 +44,7 @@ data-template="vertical-menu-template-free"
 
     <!-- Helpers -->
     <script src="<?=base_url()?>/public/assets/vendor/js/helpers.js"></script>
-
+    
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="<?=base_url()?>/public/assets/js/config.js"></script>
@@ -153,6 +153,17 @@ data-template="vertical-menu-template-free"
               <a href="<?=base_url() . '/users'?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-user-account"></i>
                 <div data-i18n="Basic">Listado</div>
+              </a>
+            </li>
+            <!-- Components -->
+            <li class="menu-header small text-uppercase">
+              <span class="menu-header-text">Resumen</span>
+            </li>
+            <!-- Cards -->
+            <li class="menu-item">
+              <a href="<?=base_url() . '/resume'?>" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-spreadsheet"></i>
+                <div data-i18n="Basic">Crear</div>
               </a>
             </li>
           </ul>

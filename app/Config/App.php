@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    // public $baseURL = 'http://localhost:80/sistema_remuneraciones/';
+    // public $baseURL = 'http://localhost/remunerations/';
     public $baseURL = 'https://remunerationsapp.herokuapp.com/';
 
     /**

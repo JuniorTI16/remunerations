@@ -1,0 +1,532 @@
+CRITICAL - 2022-06-04 13:02:08 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 13:02:54 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 13:03:33 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 13:05:00 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 13:45:31 --> Call to undefined function App\Controllers\funcFind3()
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-04 13:47:12 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:47:12 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:47:49 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:47:49 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(354): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:48:31 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:48:31 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(354): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:48:33 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:48:33 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(354): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:50:24 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:50:24 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:01 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:01 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:03 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:03 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:04 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:04 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:05 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:05 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:06 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:20 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:20 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:21 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:21 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:22 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:22 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:23 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:24 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:25 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:25 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:25 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:25 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:54:26 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:54:26 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 13:55:46 --> Undefined array key "C1054"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 359)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 13:55:52 --> Undefined array key "C1054"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 359)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-04 13:58:31 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:58:31 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-04 13:58:33 --> Unknown column 'C1054' in 'field list'
+CRITICAL - 2022-06-04 13:58:33 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(C105...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(C105...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(C105...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(357): CodeIgniter\Database\BaseConnection->query('SELECT SUM(C105...')
+#4 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(352): App\Controllers\DocumentsC->funcFind3('C1054', '2', '2')
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#7 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-04 13:59:47 --> Call to undefined function App\Controllers\funcFind1()
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 14:00:07 --> syntax error, unexpected variable "$fieldY"
+#0 E:\Xampp\htdocs\remunerations\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Xampp\\htdocs...')
+#1 E:\Xampp\htdocs\remunerations\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 14:00:22 --> Call to undefined function App\Controllers\funcFind1()
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 14:00:24 --> Call to undefined function App\Controllers\funcFind1()
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 14:00:26 --> Call to undefined function App\Controllers\funcFind1()
+#0 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#1 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-04 14:02:04 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(370): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 370)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(234): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:03:35 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(372): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 372)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(234): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:06:30 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 374)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(235): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:06:32 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 374)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(235): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:06:38 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 374)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(235): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:06:41 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 374)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(235): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:06:59 --> Undefined array key "C1047"
+#0 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(374): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\Xampp\\htdocs...', 374)
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(320): App\Controllers\DocumentsC->funcFind4('C1047', 'C1147')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:17:08 --> mysqli::__construct(): (HY000/1049): Unknown database 'remunerations'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::__const...', 'E:\\Xampp\\htdocs...', 61)
+#1 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(61): mysqli->__construct('localhost', 'root', 'root', 'remunerations')
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 14:18:45 --> mysqli::__construct(): (HY000/1049): Unknown database 'remunerations'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::__const...', 'E:\\Xampp\\htdocs...', 61)
+#1 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(61): mysqli->__construct('localhost', 'root', 'root', 'remunerations')
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 14:19:00 --> mysqli::__construct(): (HY000/1049): Unknown database 'remunerations'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::__const...', 'E:\\Xampp\\htdocs...', 61)
+#1 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(61): mysqli->__construct('localhost', 'root', 'root', 'remunerations')
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 14:21:13 --> mysqli::__construct(): (HY000/1049): Unknown database 'remunerations'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::__const...', 'E:\\Xampp\\htdocs...', 61)
+#1 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(61): mysqli->__construct('localhost', 'root', 'root', 'remunerations')
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(321): funcFind3('C1054', '2', '2')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->test()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-04 14:40:09 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:48:22 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:57:43 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 14:58:07 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 15:01:20 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(226): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-04 15:06:11 --> Unknown column 'C1054' in 'field list'
+#0 E:\Xampp\htdocs\remunerations\app\Helpers\Datos_helper.php(64): mysqli->query('SELECT SUM(C105...')
+#1 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(231): funcFind3('C1054', '2', '2')
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(225): App\Controllers\DocumentsC->make('FEBRERO', '2022')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
