@@ -161,6 +161,7 @@ class DocumentsC extends BaseController{
             $year = sanitize($this->request->getVar('year'));
             $month = sanitize($this->request->getVar('month'));
             $nombreArchivo = $fileplh['tmp_name'];
+            /*
             $doc = IOFactory::load($nombreArchivo);
             $totalHojas = $doc->getSheetCount();
             $hojaActual = $doc->getSheet(0);
@@ -221,7 +222,7 @@ class DocumentsC extends BaseController{
             }
             $insert = rtrim($insert, ',(');
             $insert .= ";";
-            $db->query($insert);
+            $db->query($insert);*/
             echo json_encode(['mes' => $month, 'anio' => $year]);
         }
     }
@@ -319,19 +320,9 @@ class DocumentsC extends BaseController{
 
         $sheet->getStyle('D8:P31')->applyFromArray($styleArray);
         $writer = new Xlsx($spreadsheet);
-        $writer->save('../public/summaries/' . "Resumen$month$year.xlsx");
+        $writer->save(ROOTPATH . 'public/summaries/' . "Resumen$month$year.xlsx");
         
         echo base_url() . '/public/summaries/' . "Resumen$month$year.xlsx";
-    }
-
-    public function test(){
-        echo ROOTPATH . 'public/summaries/' . "Resumen.xlsx";
-        echo "<br>";
-        echo ROOTPATH . 'public/summaries/' . "Resumen.xlsx";
-        echo "<br>";
-        echo FCPATH . 'public/summaries/' . "Resumen.xlsx";
-        echo "<br>";
-        echo base_url() . '/public/summaries/' . "Resumen.xlsx";
     }
 
     public function update(){
