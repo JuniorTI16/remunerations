@@ -319,9 +319,15 @@ class DocumentsC extends BaseController{
 
         $sheet->getStyle('D8:P31')->applyFromArray($styleArray);
         $writer = new Xlsx($spreadsheet);
-        $writer->save(ROOTPATH . 'public/summaries/' . "Resumen$month$year.xlsx");
+        $writer->save(FCPATH . 'public/summaries/' . "Resumen$month$year.xlsx");
         
         echo base_url() . '/public/summaries/' . "Resumen$month$year.xlsx";
+    }
+
+    public function test(){
+        echo ROOTPATH . 'public/summaries/' . "Resumen.xlsx";
+        echo FCPATH . 'public/summaries/' . "Resumen.xlsx";
+        echo base_url() . '/public/summaries/' . "Resumen.xlsx";
     }
 
     public function update(){
