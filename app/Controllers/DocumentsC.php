@@ -321,9 +321,9 @@ class DocumentsC extends BaseController{
         $sheet->getStyle('D8:P31')->applyFromArray($styleArray);
         $writer = new Xlsx($spreadsheet);
         $filename = "Resumen$month$year.xlsx";
-        $writer->save(ROOTPATH  . "writable/uploads/$filename");
+        $writer->save(ROOTPATH  . "/writable/uploads/$filename");
         
-        echo base_url() . 'writable/uploads/' . "$filename";
+        echo base_url() . '/writable/uploads/' . "$filename";
     }
 
     public function update(){
