@@ -64,6 +64,8 @@ $routes->post('/create_resume', 'DocumentsC::create_resume');
 
 $routes->post('/make', 'DocumentsC::make');
 
+$routes->post('/test', 'DocumentsC::test');
+
 $routes->get('/users', 'UsersC::index');
 $routes->post('/users/addUser', 'UsersC::add');
 $routes->post('/users/listUser', 'UsersC::list');
