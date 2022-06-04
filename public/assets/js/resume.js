@@ -63,7 +63,7 @@ function generateResume() {
       cleanForm();
       const { mes, anio } = resp;
       $.ajax({
-        url: urlApp + "controller.php",
+        url: urlApp + "make",
         type: "POST",
         data: { mes, anio },
         error: function () {
