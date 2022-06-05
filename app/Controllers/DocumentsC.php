@@ -324,7 +324,7 @@ class DocumentsC extends BaseController{
         $route = $filename;
         var_dump($writer->save($route));
         
-        // echo base_url() . "public/summaries/$filename";
+        // echo base_url() . "/public/summaries/$filename";
     }
 
     public function test(){
