@@ -116,7 +116,7 @@ class DocumentsC extends BaseController{
         }
     }
 
-    public function test2(){
+    public function testt(){
         
        
         $fileplh = 'DATOSPLHFEBRERO';
