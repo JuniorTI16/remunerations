@@ -124,7 +124,7 @@ class DocumentsC extends BaseController{
         helper('Datos_helper');
         $year = '2022';
         $month = 'Febrero';
-        $nombreArchivo = $fileplh['tmp_name'];
+        $nombreArchivo = $fileplh;
         
         $doc = IOFactory::load($nombreArchivo);
         $totalHojas = $doc->getSheetCount();
