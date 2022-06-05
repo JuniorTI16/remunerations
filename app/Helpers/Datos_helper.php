@@ -17,11 +17,11 @@
         // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
         $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
-        $c1 = $mysqli->query('SELECT SUM("'.$con1.'") AS "'.$con1.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"');
+        $c1 = $mysqli->query('SELECT SUM('.$con1.') AS "'.$con1.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"');
         $c1 = $c1->fetch_assoc();
         $c1 = $c1[$con1];
         
-        if($c2 = $mysqli->query('SELECT SUM("'.$con2.'") AS "'.$con2.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"')){
+        if($c2 = $mysqli->query('SELECT SUM('.$con2.') AS "'.$con2.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"')){
             $c2 = $c2->fetch_assoc();
         }
 
@@ -39,11 +39,11 @@
         // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
         $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
-        $c1 = $mysqli->query('SELECT SUM("'.$con1.'") AS "'.$con1.'" FROM plh WHERE CODNIV = "'.$codniv.'"');
+        $c1 = $mysqli->query('SELECT SUM('.$con1.') AS "'.$con1.'" FROM plh WHERE CODNIV = "'.$codniv.'"');
         $c1 = $c1->fetch_assoc();
         $c1 = $c1[$con1];
         
-        if($c2 = $mysqli->query('SELECT SUM("'.$con2.'") AS "'.$con2.'" FROM plh WHERE CODNIV = "'.$codniv.'"')){
+        if($c2 = $mysqli->query('SELECT SUM('.$con2.') AS "'.$con2.'" FROM plh WHERE CODNIV = "'.$codniv.'"')){
             $c2 = $c2->fetch_assoc();
         }
 
@@ -61,7 +61,7 @@
         // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
         $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
-        if($c = $mysqli->query('SELECT SUM("'.$con.'") AS "'.$con.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"')){
+        if($c = $mysqli->query('SELECT SUM('.$con.') AS "'.$con.'" FROM plh WHERE TIPOPLA = "'.$tipopla.'" AND CONDIC = "'.$condic.'"')){
             $c = $c->fetch_assoc();
             $c = $c[$con];
             return $c;
@@ -75,11 +75,11 @@
         // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
         $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
-        $c1 = $mysqli->query('SELECT SUM("'.$con1.'") AS "'.$con1.'" FROM plh');
+        $c1 = $mysqli->query('SELECT SUM('.$con1.') AS "'.$con1.'" FROM plh');
         $c1 = $c1->fetch_assoc();
         $c1 = $c1[$con1];
         
-        if($c2 = $mysqli->query('SELECT SUM("'.$con2.'") AS "'.$con2.'" FROM plh')){
+        if($c2 = $mysqli->query('SELECT SUM('.$con2.') AS "'.$con2.'" FROM plh')){
             $c2 = $c2->fetch_assoc();
         }
 
