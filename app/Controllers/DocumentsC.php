@@ -321,7 +321,7 @@ class DocumentsC extends BaseController{
         $sheet->getStyle('D8:P31')->applyFromArray($styleArray);
         $writer = new Xlsx($spreadsheet);
         $filename = "Resumen$month$year.xlsx";
-        $route = (FCPATH . 'public/summaries/' . $filename);
+        $route = ('../../../../public/summaries/' . $filename);
         $writer->save($route);
         
         echo base_url() . "public/summaries/$filename";
