@@ -43,7 +43,7 @@ function generateResume() {
   });
 
   $.ajax({
-    url: urlApp + "create_resume",
+    url: urlApp + "test.php",
     type: "POST",
     data: formData,
     contentType: false,
@@ -63,7 +63,7 @@ function generateResume() {
       cleanForm();
       const { mes, anio } = resp;
       $.ajax({
-        url: urlApp + "make",
+        url: urlApp + "make.php",
         type: "POST",
         data: { mes, anio },
         error: function () {
