@@ -116,6 +116,82 @@ class DocumentsC extends BaseController{
         }
     }
 
+    public function test2(){
+        
+       
+        $fileplh = 'DATOSPLHFEBRERO';
+
+        helper('Datos_helper');
+        $year = '2022';
+        $month = 'Febrero';
+        $nombreArchivo = $fileplh['tmp_name'];
+        
+        $doc = IOFactory::load($nombreArchivo);
+        $totalHojas = $doc->getSheetCount();
+        $hojaActual = $doc->getSheet(0);
+        $numFilas = $hojaActual->getHighestDataRow();
+        $letra = $hojaActual->getHighestColumn();
+        $numLetra = Coordinate::columnIndexFromString($letra);
+        $header = '';
+        $matriz = [];
+        for ($indiceFila = 1; $indiceFila <= $numFilas; $indiceFila++) {
+            $fila = '';
+            for ($indiceColumna = 1; $indiceColumna <= $numLetra; $indiceColumna++) { 
+                $datoCelda = $hojaActual->getCellByColumnAndRow($indiceColumna, $indiceFila);
+                if($indiceColumna <= $numLetra && $indiceFila == 1) {
+                    $header .= $datoCelda . ',';
+                }
+                if($indiceFila != 1){
+                    $fila .= $datoCelda . ',';
+                    if($indiceColumna == $numLetra){
+                        array_push($matriz,$fila);
+                    }
+                }
+            }
+        }
+        $header = rtrim($header, ',');
+        $header = explode(',', $header);
+        $table = 'create table plh (';
+        $c = 0;
+        foreach($header as $head){
+            if ($c < 34) {
+                $table .= $head . ' varchar(255),';
+            } else {
+                $table .= $head . ' decimal(8,2),';
+            }
+            $c++;
+        }
+        $table = rtrim( $table, ',');
+        $table .= ')Engine=INNODB;'; 
+        $db = db_connect();
+        // $db->query('DROP TABLE IF EXISTS plh');
+        // $db->query($table);
+        var_dump($table);
+        echo '<br>';
+        $limit = $numLetra - 1;
+        $insert = 'insert into plh values (';
+        foreach ($matriz as $mat) {
+            $mat = rtrim($mat, ',');
+            $mat = explode(',', $mat);
+            $a = 0;
+            foreach ($mat as $m) {
+                if ($a < 34) {
+                    $insert .= '"' . $m . '",';
+                } else if ($a == $limit) {
+                    $insert .= $m . '),(';
+                } else {
+                    $insert .= $m . ',';
+                }
+                $a++;
+            }
+        }
+        $insert = rtrim($insert, ',(');
+        $insert .= ";";
+        var_dump($insert);
+        // $db->query($insert);
+        // echo json_encode(['mes' => $month, 'anio' => $year]);
+    }
+
     public function create_resume(){
         
         if ($_SERVER['REQUEST_METHOD'] == 'GET') { 
