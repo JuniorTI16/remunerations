@@ -421,7 +421,7 @@ class DocumentsC extends BaseController{
         $writer = new Xlsx($spreadsheet);
         $filename = "Resumen$month$year.xlsx";
         $route = $filename;
-        $writer->save(base_url() . "/public/summaries/$filename");
+        $writer->save(WRITEPATH . "/$filename");
 
         // echo base_url() . "public/summaries/$filename";
     }
