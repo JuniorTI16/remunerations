@@ -14,8 +14,8 @@
 
     function funcFind1($con1, $con2, $tipopla, $condic){
         //1080,1081,1082,1083,1001,1002,1011,1012,1029,1032,1025,1047
-        // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
-        $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
+        $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
+        // // $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
         $c1 = $mysqli->query("SELECT SUM($con1) AS '$con1' FROM plh WHERE TIPOPLA = '$tipopla' AND CONDIC = '$condic'");
         $c1 = $c1->fetch_assoc();
@@ -48,8 +48,8 @@
 
     function funcFind2($con1, $con2, $codniv){
         //1080,1081,1082,1083,1001,1002,1011,1012,1029,1032,1025,1047
-        // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
-        $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
+        $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
+        // $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
         $c1 = $mysqli->query("SELECT SUM($con1) AS '$con1' FROM plh WHERE CODNIV = '$codniv'");
         $c1 = $c1->fetch_assoc();
@@ -85,8 +85,8 @@
 
     function funcFind3($con, $tipopla, $condic){
         //1080,1081,1082,1083,1001,1002,1011,1012,1029,1032,1025,1047
-        // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
-        $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
+        $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
+        // $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
         $res = $mysqli->query("SELECT COLUMN_NAME AS c FROM information_schema.columns WHERE table_schema = 'heroku_0d3cc06d5d6ea4e' AND table_name = 'plh'");
         $columnas = [];
@@ -113,8 +113,8 @@
 
     function funcFind4($con1, $con2){
         //1080,1081,1082,1083,1001,1002,1011,1012,1029,1032,1025,1047
-        // $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
-        $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
+        $mysqli = new mysqli('localhost', 'root', 'root', 'remuneration');
+        // $mysqli = new mysqli('us-cdbr-east-05.cleardb.net', 'b9475bc7d87319', 'd0256fe9', 'heroku_0d3cc06d5d6ea4e');
 
         $c1 = $mysqli->query("SELECT SUM($con1) AS '$con1' FROM plh");
         $c1 = $c1->fetch_assoc();

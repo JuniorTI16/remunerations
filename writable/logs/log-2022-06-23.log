@@ -1,0 +1,88 @@
+ERROR - 2022-06-23 19:38:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,575.93,,12.24,319.29,,,,,,76.46,,,,5,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,' at line 1
+CRITICAL - 2022-06-23 19:38:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,575.93,,12.24,319.29,,,,,,76.46,,,,5,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,' at line 1
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('insert into plh...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('insert into plh...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('insert into plh...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(301): CodeIgniter\Database\BaseConnection->query('insert into plh...')
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->create_resume()
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-23 19:41:35 --> File "DATOSPLHFEBRERO.xlsx" does not exist.
+#0 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('DATOSPLHFEBRERO...')
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('DATOSPLHFEBRERO...', NULL)
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(129): PhpOffice\PhpSpreadsheet\IOFactory::load('DATOSPLHFEBRERO...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-23 19:42:44 --> File "c:/xampp/htdocs/remunerations/app/controllers/DATOSPLHFEBRERO.xlsx" does not exist.
+#0 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('c:/xampp/htdocs...')
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('c:/xampp/htdocs...', NULL)
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(129): PhpOffice\PhpSpreadsheet\IOFactory::load('c:/xampp/htdocs...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-23 19:43:09 --> File "DATOSPLHFEBRERO.xlsx" does not exist.
+#0 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('DATOSPLHFEBRERO...')
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('DATOSPLHFEBRERO...', NULL)
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(129): PhpOffice\PhpSpreadsheet\IOFactory::load('DATOSPLHFEBRERO...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-23 19:43:10 --> File "DATOSPLHFEBRERO.xlsx" does not exist.
+#0 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('DATOSPLHFEBRERO...')
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('DATOSPLHFEBRERO...', NULL)
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(129): PhpOffice\PhpSpreadsheet\IOFactory::load('DATOSPLHFEBRERO...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-23 19:43:39 --> File "E:\Xampp\htdocs\remunerations\DATOSPLHFEBRERO.xlsx" does not exist.
+#0 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(129): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('E:\\Xampp\\htdocs...')
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(100): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('E:\\Xampp\\htdocs...', NULL)
+#2 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(129): PhpOffice\PhpSpreadsheet\IOFactory::load('E:\\Xampp\\htdocs...')
+#3 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-23 19:45:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,575.93,,12.24,319.29,,,,,,76.46,,,,5,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,' at line 1
+CRITICAL - 2022-06-23 19:45:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,,,,,,,,,,575.93,,12.24,319.29,,,,,,76.46,,,,5,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,' at line 1
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('insert into plh...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('insert into plh...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('insert into plh...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(191): CodeIgniter\Database\BaseConnection->query('insert into plh...')
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-23 19:47:16 --> Column count doesn't match value count at row 2
+CRITICAL - 2022-06-23 19:47:16 --> Column count doesn't match value count at row 2
+#0 E:\Xampp\htdocs\remunerations\system\Database\MySQLi\Connection.php(292): mysqli->query('insert into plh...', 0)
+#1 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('insert into plh...')
+#2 E:\Xampp\htdocs\remunerations\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('insert into plh...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(194): CodeIgniter\Database\BaseConnection->query('insert into plh...')
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->testt()
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-23 20:21:50 --> fopen(E:\Xampp\htdocs\remunerations\writable\/ResumenJUNIO2022.xlsx): Failed to open stream: Resource temporarily unavailable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(E:\\Xampp\\...', 'E:\\Xampp\\htdocs...', 123)
+#1 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\BaseWriter.php(123): fopen('E:\\Xampp\\htdocs...', 'wb')
+#2 E:\Xampp\htdocs\remunerations\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(539): PhpOffice\PhpSpreadsheet\Writer\BaseWriter->openFileHandle('E:\\Xampp\\htdocs...')
+#3 E:\Xampp\htdocs\remunerations\app\Controllers\DocumentsC.php(418): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('E:\\Xampp\\htdocs...')
+#4 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(832): App\Controllers\DocumentsC->make()
+#5 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocumentsC))
+#6 E:\Xampp\htdocs\remunerations\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp\htdocs\remunerations\index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

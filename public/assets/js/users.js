@@ -1,7 +1,7 @@
 var usersTable;
 
-// const urlApp = "http://localhost/remunerations/";
-const urlApp = "https://remunerationsapp.herokuapp.com/";
+const urlApp = "http://localhost/remunerations/";
+// const urlApp = "https://remunerationsapp.herokuapp.com/";
 
 $(document).ready(function () {
   listUsers();
@@ -71,17 +71,7 @@ function listUsers() {
         className: "text-center",
       },
       {
-        defaultContent: `<div class="dropdown bg-label-customize">
-          <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-            <i class="bx bx-dots-vertical-rounded"></i>
-          </button>
-          <div class="dropdown-menu">
-            <a class="dropdown-item editUser" href="javascript:void(0);">
-              <i class="bx bx-edit-alt me-1"></i> Edit
-            </a>
-          </div>
-        </div>`,
-        className: "text-center",
+        xlixk
       },
     ],
     language: {

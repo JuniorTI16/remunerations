@@ -1,6 +1,6 @@
 
-// const urlApp = "http://localhost/remunerations/";
-const urlApp = 'https://remunerationsapp.herokuapp.com/';
+const urlApp = "http://localhost/remunerations/";
+// const urlApp = 'https://remunerationsapp.herokuapp.com/';
 
 function cleanForm() {
   $("#year").val("");

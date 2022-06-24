@@ -1,5 +1,5 @@
-// const urlApp = "http://localhost/remunerations/";
-const urlApp = "https://remunerationsapp.herokuapp.com/";
+const urlApp = "http://localhost/remunerations/";
+// const urlApp = "https://remunerationsapp.herokuapp.com/";
 
 $('#formAuthentication').submit(function (event) {
     event.preventDefault();

@@ -1,7 +1,7 @@
 var documentsTable;
 
-// const urlApp = 'http://localhost/remunerations/';
-const urlApp = 'https://remunerationsapp.herokuapp.com/';
+const urlApp = 'http://localhost/remunerations/';
+// const urlApp = 'https://remunerationsapp.herokuapp.com/';
 $(document).ready(function () {
   listarDocumentos();
 });

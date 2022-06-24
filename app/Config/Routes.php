@@ -65,7 +65,6 @@ $routes->post('/create_resume', 'DocumentsC::create_resume');
 $routes->post('/make', 'DocumentsC::make');
 
 $routes->get('/test', 'DocumentsC::test');
-
 $routes->get('/testt', 'DocumentsC::testt');
 
 $routes->get('/users', 'UsersC::index');

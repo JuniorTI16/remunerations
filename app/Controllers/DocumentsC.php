@@ -119,7 +119,7 @@ class DocumentsC extends BaseController{
     public function testt(){
         
        
-        $fileplh = 'DATOSPLHFEBRERO.xlsx';
+        $fileplh = FCPATH . 'DATOSPLHjunio.xlsx';
 
         helper('Datos_helper');
         $year = '2022';
@@ -132,6 +132,7 @@ class DocumentsC extends BaseController{
         $numFilas = $hojaActual->getHighestDataRow();
         $letra = $hojaActual->getHighestColumn();
         $numLetra = Coordinate::columnIndexFromString($letra);
+        
         $header = '';
         $matriz = [];
         for ($indiceFila = 1; $indiceFila <= $numFilas; $indiceFila++) {
@@ -142,6 +143,9 @@ class DocumentsC extends BaseController{
                     $header .= $datoCelda . ',';
                 }
                 if($indiceFila != 1){
+                    if ($datoCelda == '') {
+                        $datoCelda = 0; 
+                    }
                     $fila .= $datoCelda . ',';
                     if($indiceColumna == $numLetra){
                         array_push($matriz,$fila);
@@ -164,21 +168,25 @@ class DocumentsC extends BaseController{
         $table = rtrim( $table, ',');
         $table .= ')Engine=INNODB;'; 
         $db = db_connect();
-        // $db->query('DROP TABLE IF EXISTS plh');
-        // $db->query($table);
-        var_dump($table);
-        echo '<br>';
+        $db->query('DROP TABLE IF EXISTS plh');
+        $db->query($table);
+        // var_dump($table);
+        // echo '<br>';
         $limit = $numLetra - 1;
+        // echo '<pre>';
+        // var_dump($matriz);
+        // echo '</pre>';
+        // return;
         $insert = 'insert into plh values (';
         foreach ($matriz as $mat) {
             $mat = rtrim($mat, ',');
             $mat = explode(',', $mat);
             $a = 0;
             foreach ($mat as $m) {
-                if ($a < 34) {
-                    $insert .= '"' . $m . '",';
-                } else if ($a == $limit) {
+                if ($a == $limit) {
                     $insert .= $m . '),(';
+                } else if ($a < 34) {
+                    $insert .= '"' . $m . '",';
                 } else {
                     $insert .= $m . ',';
                 }
@@ -188,7 +196,7 @@ class DocumentsC extends BaseController{
         $insert = rtrim($insert, ',(');
         $insert .= ";";
         var_dump($insert);
-        // $db->query($insert);
+        $db->query($insert);
         // echo json_encode(['mes' => $month, 'anio' => $year]);
     }
 
@@ -244,6 +252,7 @@ class DocumentsC extends BaseController{
             $numFilas = $hojaActual->getHighestDataRow();
             $letra = $hojaActual->getHighestColumn();
             $numLetra = Coordinate::columnIndexFromString($letra);
+            
             $header = '';
             $matriz = [];
             for ($indiceFila = 1; $indiceFila <= $numFilas; $indiceFila++) {
@@ -254,6 +263,9 @@ class DocumentsC extends BaseController{
                         $header .= $datoCelda . ',';
                     }
                     if($indiceFila != 1){
+                        if ($datoCelda == '') {
+                            $datoCelda = 0; 
+                        }
                         $fila .= $datoCelda . ',';
                         if($indiceColumna == $numLetra){
                             array_push($matriz,$fila);
@@ -278,18 +290,23 @@ class DocumentsC extends BaseController{
             $db = db_connect();
             $db->query('DROP TABLE IF EXISTS plh');
             $db->query($table);
-
+            // var_dump($table);
+            // echo '<br>';
             $limit = $numLetra - 1;
+            // echo '<pre>';
+            // var_dump($matriz);
+            // echo '</pre>';
+            // return;
             $insert = 'insert into plh values (';
             foreach ($matriz as $mat) {
                 $mat = rtrim($mat, ',');
                 $mat = explode(',', $mat);
                 $a = 0;
                 foreach ($mat as $m) {
-                    if ($a < 34) {
-                        $insert .= '"' . $m . '",';
-                    } else if ($a == $limit) {
+                    if ($a == $limit) {
                         $insert .= $m . '),(';
+                    } else if ($a < 34) {
+                        $insert .= '"' . $m . '",';
                     } else {
                         $insert .= $m . ',';
                     }
@@ -298,6 +315,7 @@ class DocumentsC extends BaseController{
             }
             $insert = rtrim($insert, ',(');
             $insert .= ";";
+            // var_dump($insert);
             $db->query($insert);
             echo json_encode(['mes' => $month, 'anio' => $year]);
         }
@@ -406,7 +424,7 @@ class DocumentsC extends BaseController{
 
         helper('Datos_helper');
         $year = "2022";
-        $month = "";
+        $month = "JUNIO";
 
         $fieldAA = funcFind3('C1054', '2', '2');
             
